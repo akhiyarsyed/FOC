@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main(){
+    float n;
+    printf("enter a number : \n");
+    scanf("%f", &n);
+    printf("square of the number is %f \n", n * n);
+    printf("cube of the number is %f \n", n * n * n);
+}
